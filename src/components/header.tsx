@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import { useState } from "react"
 
 export function Header() {
@@ -17,6 +18,7 @@ export function Header() {
             </div>
             <span className="text-xl font-bold">FixItNow</span>
           </div>
+          {/* <Image src="/images/logo.png" alt="Logo" width={100} height={100} /> */}
 
           <nav className="hidden items-center gap-6 md:flex">
             <a

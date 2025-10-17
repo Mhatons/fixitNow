@@ -49,14 +49,14 @@ export default function RootLayout({
       <head>
       <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#E1972F" />
-        <link rel="apple-touch-icon" href="/images/aviLogo.png" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Avenue Impact - course feedback</title>
-        <link rel="icon" type="image/png" href="/images/aviLogo.png" />
+        <link rel="icon" type="image/png" href="/images/logo.png" />
       </head>
       <body 
       // className={fontFamily}
