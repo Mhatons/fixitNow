@@ -40,9 +40,11 @@ export function HeroSection() {
             </div>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-700">
-              <Button size="lg" className="w-full sm:w-auto transition-all hover:scale-105 hover:shadow-lg">
-                Find an Artisan
-              </Button>
+              <a href="#artisans">
+                <Button size="lg" className="w-full sm:w-auto transition-all hover:scale-105 hover:shadow-lg">
+                  Find an Artisan
+                </Button>
+              </a>
               <Button
                 size="lg"
                 variant="outline"
